@@ -55,7 +55,7 @@ def main():
     driver = chrome.headless_lambda(device="PC", isAddOption=False)
 
     try:
-        driver.get("https://stg.socialdriveapp.com/auth/login")
+        driver.get("https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/insights")
         time.sleep(5)
         print('Page loaded')
 
