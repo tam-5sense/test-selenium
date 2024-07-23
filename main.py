@@ -8,6 +8,21 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+REQUIREMENTS_ITEMS = ['Access Tokens', 'Business Roles', 'Instagram Shop']
+EXAMPLE_JSON = {
+    "Access Tokens": {
+        "class_name": "access",
+        "text": "User"
+    },
+    "Business Roles": {
+        "class_name": "business",
+        "text": "User"
+    },
+    "Instagram Shop": {
+        "class_name": "instagram",
+        "text": "User"
+    }
+}
 class Chrome:
     def headless_lambda(self, device, isAddOption=True):
         options = webdriver.ChromeOptions()
@@ -55,10 +70,13 @@ def main():
     driver = chrome.headless_lambda(device="PC", isAddOption=True)
 
     try:
-        driver.get("https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/insights")
+        driver.get("https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user?locale=en_US")
         time.sleep(5)
         print('Page loaded')
-
+        # get element of class name is row_3 _5m29
+        element = driver.find_element(By.CLASS_NAME, 'row_3')
+        print('Element found')
+        print(element.text)
         driver.implicitly_wait(10)
         driver.save_screenshot('screenshot.png')
         print('Screenshot saved')
