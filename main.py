@@ -52,7 +52,7 @@ class Chrome:
 
 def main():
     chrome = Chrome()
-    driver = chrome.headless_lambda(device="PC", isAddOption=False)
+    driver = chrome.headless_lambda(device="PC", isAddOption=True)
 
     try:
         driver.get("https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/insights")
