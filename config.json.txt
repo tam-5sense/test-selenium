@@ -1,0 +1,214 @@
+[
+    {
+        "url": "https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user?locale=en_US",
+        "selectors": {
+            "Instagram users": {
+                "selector": "#u_0_0_DE > div > span > div._7aa > div:nth-child(1) > div > p"
+            },
+            "Create": {
+                "selector": "#u_0_0_DE > div > span > div._7aa > div:nth-child(2) > div > p"
+            },
+            "Read": {
+                "selectors": [
+                    "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > p:nth-child(2) > strong",
+                    "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > p:nth-child(3)"
+                ],
+                "Request": {
+                    "Access code": {
+                        "selector": [
+                            "#u_0_1_wq > tr.row_0 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "Role in business": {
+                        "selector": [
+                            "#u_0_1_wq > tr.row_1._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "Shop on Instagram":{
+                        "selector": [
+                            "#u_0_1_wq > tr.row_2 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "Permission":{
+                        "selector": [
+                            "#u_0_1_wq > tr.row_3._5m29 > td:nth-child(2)"
+                        ]
+                    }
+    
+                },
+                "Request syntax":{
+                    "selectors": [
+                        "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > pre._5s-8.prettyprint.lang-https.prettyprinted"
+                    ]
+                },
+                "Path parameters":{
+                   "{api-version}":{
+                       "selector": [
+                           "#u_0_2_o9 > tr.row_0 > td:nth-child(2) > p"
+                       ]
+                   },
+                   "{ig-user-id}":{
+                         "selector": [
+                              "#u_0_2_o9 > tr.row_1._5m29 > td:nth-child(2) > p"
+                         ]
+                   }
+                },
+                "Query string parameters":{
+                    "access_token":{
+                        "selector": [
+                            "#u_0_3_bV > tr.row_0"
+                        ]
+                    },
+                    "fields":{
+                        "selector": [
+                            "#u_0_3_bV > tr.row_1"
+                        ]
+                    }
+                },
+                "School":{
+                    "selectors": [
+                        "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > p:nth-child(13) > font > font"
+                    ],
+                    "biography Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_0 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "id Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_1._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "ig_id":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_2 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "followers_count Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_3._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "follows_count":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_4 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "media_count Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_5._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "name":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_6 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "profile_picture_url":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_7._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "shopping_product_tag_eligibility":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_8 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "username Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_9._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "website Public":{
+                        "selector": [
+                            "#u_0_4_\\+K > tr.row_10 > td:nth-child(2) > p"
+                        ]
+                    }
+                },
+                "Edge":{
+                    "business_discovery":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_0 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "content_publishing_limit":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_1._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "insights":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_2 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "live_media":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_3._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "media":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_4 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "media_publish":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_5._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "mentions":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_6 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "mentioned_comment":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_7._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "mentioned_media":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_8 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "recently_searched_hashtags":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_9._5m29 > td:nth-child(2) > p"
+                        ]
+                    },
+                    "stories":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_10 > td:nth-child(2) > p > font:nth-child(5)"
+                        ]
+                    },
+                    "tags":{
+                        "selector": [
+                            "#u_0_5_l9 > tr.row_11._5m29 > td:nth-child(2) > p"
+                        ]
+                    }
+                },
+                "Feedback":{
+                    "selectors": [
+                        "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > p:nth-child(18)",
+                        "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > pre:nth-child(19)"
+                    ]
+                },
+                "cURL sample":{
+                    "Request":{
+                        "selector": [
+                            "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > pre._5s-8.prettyprint.lang-curl.prettyprinted"
+                        ]
+                    },
+                    "Feedback":{
+                        "selector": [
+                           "#u_0_0_DE > div > span > div._7aa > div:nth-child(3) > div > pre:nth-child(24)"
+                        ]
+                    }
+                }
+    
+    
+            }
+        },
+        "output_file": "data_extracted_ig_users.json"
+    }
+]
