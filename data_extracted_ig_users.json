@@ -1,0 +1,66 @@
+{
+    "Instagram users": {
+        "selectors": [
+            "div._4-u2._57mb._1u44._3fw6._4-u8:first-child div._4-u3 > p"
+        ],
+        "texts": [
+            "Represents an Instagram Business Account or an Instagram Creator Account ."
+        ]
+    },
+    "Create": {
+        "selectors": [
+            "div._4-u2._57mb._1u44._3fw6._4-u8:nth-child(2) div._4-u3 > p"
+        ],
+        "texts": [
+            "This operation is not supported."
+        ]
+    },
+    "Read": {
+        "selectors": [
+            "div._4-u3._588p > p:nth-child(2) > strong > code",
+            "div._4-u3._588p > p:nth-child(3)"
+        ],
+        "texts": [
+            "GET /{ig-user-id}",
+            "Get fields and edges on an Instagram Business or Creator Account."
+        ],
+        "Request": {
+            "Access code": {
+                "selectors": [
+                    "div._57-c table._4-ss._5k9x tbody._5m37 tr.row_0 td:nth-child(2) > p"
+                ],
+                "texts": [
+                    "User .",
+                    "API version .",
+                    "{access-token}",
+                    "Profile bio text.",
+                    "Get data about other Instagram Business or Instagram Creator IG Users ."
+                ]
+            },
+            "Role in business": {
+                "selectors": [
+                    "#u_0_1_wq > tr.row_1._5m29 > td:nth-child(2) > p"
+                ],
+                "texts": [
+                    "Timeout waiting for CSS selector: #u_0_1_wq > tr.row_1._5m29 > td:nth-child(2) > p"
+                ]
+            },
+            "Shop on Instagram": {
+                "selectors": [
+                    "#u_0_1_wq > tr.row_2 > td:nth-child(2) > p"
+                ],
+                "texts": [
+                    "Timeout waiting for CSS selector: #u_0_1_wq > tr.row_2 > td:nth-child(2) > p"
+                ]
+            },
+            "Permission": {
+                "selectors": [
+                    "#u_0_1_wq > tr.row_3._5m29 > td:nth-child(2)"
+                ],
+                "texts": [
+                    "Timeout waiting for CSS selector: #u_0_1_wq > tr.row_3._5m29 > td:nth-child(2)"
+                ]
+            }
+        }
+    }
+}
